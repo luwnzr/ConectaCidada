@@ -2,7 +2,7 @@
 
 Um protótipo de aplicativo mobile voltado para facilitar o acesso da população aos serviços públicos e assistenciais do Distrito Federal de forma rápida, intuitiva e centralizada.
 
-Acesse o protótipo online: 
+Acesse o protótipo online: https://luwnzr.github.io/ConectaCidadao/
 
 ---
 
