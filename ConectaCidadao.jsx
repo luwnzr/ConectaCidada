@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { createRoot } from "react-dom/client";
 
 // ─── SVG Icon System ──────────────────────────────────────────────
 const ICON_PATHS = {
@@ -1005,4 +1006,10 @@ export default function App() {
       {!authScreens.includes(screen) && <TabBar screen={screen} navigate={navigate} />}
     </PhoneFrame>
   );
+}
+// --- INICIANDO O APLICATIVO NA TELA ---
+const rootElement = document.getElementById("root");
+if (rootElement) {
+  const root = createRoot(rootElement);
+  root.render(<App />);
 }
