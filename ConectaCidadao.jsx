@@ -1050,3 +1050,8 @@ export default function App() {
     </PhoneFrame>
   );
 }
+// ─── Inicialização do React ───────────────────────────────────────
+const rootElement = document.getElementById("root");
+if (rootElement) {
+  createRoot(rootElement).render(<App />);
+}
